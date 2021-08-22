@@ -1,0 +1,50 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-container{
+  margin-top: 0px;
+  height: 60px;
+  background: rgb(155, 144, 255);
+  background: rgb(25,21,92);
+background: linear-gradient(90deg, rgba(25,21,92,1) 0%, rgba(178,92,200,1) 35%, rgba(0,212,255,1) 100%);
+  
+  display: flex;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*---------LOGO--------*/
+.navbar-container h3{
+  display: flex;
+  width: 220px;
+  float: left;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-container h3 img{
+  width: 210px;
+}
+.navbar-container h3 a{
+  font-weight: normal;
+  text-decoration: none;
+  color: aliceblue;
+}
+/*---------BUTTONS--------*/
+.navbar-container ul li a{
+  font-weight: normal;
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar-container ul{
+  list-style-type: none;
+}
+.navbar-container ul li{
+  display: flex;
+  width: 180px;
+  float: left;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-container ul li a img{
+  width: 100px;
+}
